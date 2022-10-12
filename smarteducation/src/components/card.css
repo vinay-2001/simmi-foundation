@@ -1,8 +1,8 @@
-.container .card:hover
+.card:hover
 {
     background-color: goldenrod;
 }
-.container .card .img
+.card .img
 {
     position: relative;
     width:250px;
@@ -10,10 +10,9 @@
     top:-50px;
     left:10px;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
 
-.container .card:hover .content
+.card:hover .content
 {
     visibility: visible;
     opacity: 1;
