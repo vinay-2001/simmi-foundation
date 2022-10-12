@@ -158,6 +158,7 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title">Education</h5>
                 <p className="card-text">We provide free academic education, scholarship, training and other incentives to the children.</p>
+                <Link>Read More</Link>
               </div>
             </div>
           </div>
@@ -167,6 +168,7 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title">Livelihood</h5>
                 <p className="card-text">We implement various schemes to provide livelihood and uplift the poor in society.</p>
+                <Link>Read More</Link>
               </div>
             </div>
           </div>
@@ -176,6 +178,7 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title">Healthcare</h5>
                 <p className="card-text">We are increasing awareness on Sanitization and providing people with access to better nutrition, clean water and toilets.</p>
+                <Link>Read More</Link>
               </div>
             </div>
           </div>
@@ -185,6 +188,7 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title">Women and Youth Empowerment</h5>
                 <p className="card-text">We focus on providing equal opportunities for women in the work field. This content is a little bit longer.</p>
+                <Link>Read More</Link>
               </div>
             </div>
           </div>
@@ -202,6 +206,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Collaborate</h5>
                     <p className="card-text">Simmi Foundation serves in the collaboration with schools, colleges and other institutions.</p>
+                    <Link>Collaborate with us</Link>
                   </div>
                 </div>
               </div>
@@ -210,6 +215,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Donate Money</h5>
                     <p className="card-text">Your donation will further our mission of ensuring a happy and healthy life of those in need.</p>
+                    <Link>Donate us</Link>
                   </div>
                 </div>
               </div>
@@ -218,6 +224,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Be a Volunteer</h5>
                     <p className="card-text">Even the all-powerful Pointing has no control about the blind texts.</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -227,6 +234,7 @@ function App() {
 
         <div style={{backgroundColor:'black'}}>
           <h1 className='text-danger text-center'>Current and Upcoming events</h1>
+          <div className='container'>
             <div className="row row-cols-1 row-cols-md-2 g-4 text-center">
               <div className="col">
                 <div className="card">
@@ -234,6 +242,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Marathon Event</h5>
                     <p className="card-text">Lorem Ipsum generator a baeeLorem Ipsum generator a baee Lorem Ipsum generator a baee Lorem Ipsum generator a baee Lorem Ipsum generator a baee</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -243,6 +252,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Event-til</h5>
                     <p className="card-text">event-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-descevent-desc</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -252,6 +262,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">"Know your heart better" By Dr. Rahul Katariya</h5>
                     <p className="card-text">"Know your heart better" Catch Dr. Rahul Katariya speak live on the topic cardiac pain on SIMMI foundation's official instagram handle. Link : https://instagram.com/simmifoundation/ #simmifounda</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -261,6 +272,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Corona Virus and the country</h5>
                     <p className="card-text">The SIMMI FOUNDATION introduces Dr. Arnab Mandal! Dr. Mandal is an MBBS gold-medallist from RG Kar Medical College and is currently working as a house physician at the department of pediatrics in RG</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -270,6 +282,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Development and Empowerment</h5>
                     <p className="card-text">Ms. Poonam Shroti addresses the unaddressed topic of disability and women empowerment, and the true face of rural development in the country</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -279,6 +292,7 @@ function App() {
                   <div className="card-body">
                     <h5 className="card-title">Wellness and Health, a vital concept</h5>
                     <p className="card-text">Ms. Lade talks about the issues of liver disease and how Ayurveda can help in solving the modern problems of today</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -286,8 +300,9 @@ function App() {
                 <div className="card">
                   <img src={img15} className="card-img-top" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 className="card-title">Mental Health and Motivation</h5>
+                    <p className="card-text">Ms. Papiya talks about mental health and the stigma around it, and how to overcome difficulties in talking about it and treating it.</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -295,8 +310,9 @@ function App() {
                 <div className="card">
                   <img src={img14} className="card-img-top" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 className="card-title">Rural Development</h5>
+                    <p className="card-text">Mr. Dushyant talks about rural development, especially infrastructure and roadways</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -304,8 +320,9 @@ function App() {
                 <div className="card">
                   <img src={img17} className="card-img-top" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 className="card-title">Understanding Archeology</h5>
+                    <p className="card-text">we dive with Ms. Neha into the field of archeology, as she explains the basics of archeology and the inner workings of libraries</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
@@ -313,12 +330,14 @@ function App() {
                 <div className="card">
                   <img src={img16} className="card-img-top" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 className="card-title">Understanding Entrepreneurship</h5>
+                    <p className="card-text">Mr. Amman Khurana talks about his journey as an entrepreneur and how he became the "ultimate life coach"</p>
+                    <Link>Read More</Link>
                   </div>
                 </div>
               </div>
 
+            </div>
           </div>
         </div>
     </div>
